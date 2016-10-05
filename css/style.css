@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*style for tabs*/
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.active {
+    background-color: #fff;
+}
+
+.tabs {
+    width: 700px;
+    height: 300px;
+    margin: 50px;
+    border: 2px solid #000;
+}
+
+.tabs-menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: #d3d3d3;
+}
+
+.tabs-menu ul li {
+    width: 150px;
+    height: 50px;
+    list-style: none;
+    text-align: center;
+}
+
+.tabs-menu ul li a {
+    color: #000;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 50px;
+    text-decoration: none;
+}
+
+.tabs-content {
+    margin-top: 20px;
+    padding: 5px;
+    font-family: Arial;
+    font-size: 16px;
+}
+
+/*style for form*/
+
+.form {
+    width: 500px;
+    height: 200px;
+    margin: 50px;
+}
+
+.fields {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 600px;
+    height: 150px;
+    padding: 10px;
+    border: 2px solid #000;
+    font-family: Arial;
+    font-size: 16px;
+}
+
+input {
+    width: 200px;
+    height: 20px;
+    margin-left: 20px;
+}
+
+.fields div {
+    display: flex;
+    flex-direction: row;
+}
+
+.fields div p {
+    width: 250px;
+    height: 30px;
+    margin-left: 5px;
+    padding: 10px;
+    border: 1px solid #808080;
+    background-color: #d3d3d3;
+}
+
+button {
+    width: 150px;
+    height: 30px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
